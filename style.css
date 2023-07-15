@@ -6,6 +6,7 @@ nav{
     display: flex;
     justify-content: space-between;
     background-color: #1A1244;
+    border-bottom: 4px solid #261868;
 }
 nav ul{
     display: flex;
@@ -34,4 +35,36 @@ nav div{
     color: white;
     padding:10px  200px;
 
+}
+/* hero part start here */
+header{
+    background-image: url('image/website\ banner.jpg');
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.searchBox-icon-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchBox-icon-parent i{
+    background-color: green;
+    color: red;
+    height: 30px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: -5px;
+}
+.searchBox-icon-parent input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px 20px;
 }
