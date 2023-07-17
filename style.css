@@ -68,3 +68,34 @@ header{
     font-size: 15px;
     padding: 5px 20px;
 }
+/* main section code start heere */
+main{
+    background-color: #17096e;
+    padding-top: 20px;
+    
+}
+.main-section{
+    width: 1000px;
+    margin: auto;
+    padding: 50px 0;
+}
+.Latest-video-parent{
+    display: flex;
+    justify-content: space-between;
+}
+.latest-video-text{
+    color: #04AA6D;
+    font-size: 25px;
+    font-weight: bold;
+}
+.latest-pages{
+    color:#04AA6D;
+}
+.latest-pages span{
+    color: black;
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 0 10px;
+    border: 1px solid #8080805b;
+    cursor: pointer;
+}
